@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content:space-evenly;
+    height: 12vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.header a:hover{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+.calci{
+    background-color: black;
+    color: white;
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 0.9rem;
+    width: 23rem;
+
+}
+.calci #text-input{
+    /* font-style: bold; */
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 1.4rem;
+    border-radius: 0.9rem;
+    /* width: 100%; */
+    width: 15rem;
+}
+.calci .pd{
+    padding: 0.6rem;
+}
+button{
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    padding: 0.9rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    margin: 0.5rem;
+    width: 2.6rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about{
+    margin: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.about-main{
+    font-family: 'Roboto', sans-serif;
+    width: 800px;
+    margin: 0.3rem;
+    /* border: 2px solid black; */
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+
+}
+img{
+    width: 400px;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+.fwr{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+
+.main-contact form {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 2rem; */
+}
+
+#send-btn{
+    width: 3rem;
+}
+.main-contact form{
+    padding: 3rem;
+}
+
+.contact-input{
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    width: 27rem;
+}
+
+#contact-submit{
+    border-radius: 0.7rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.6rem;
+
+}
+
+.main-contact form input{
+    /* margin-top: 2rem; */
+    margin-bottom: 0;
+}
+
+p{
+    font-weight: 600;
+}
+@media (max-width:818px) {
+    body{
+        /* background-color: red; */
+    }
+    .about-main{
+        width: 680px;
+    }
+}
+@media (max-width:703px) {
+    body{
+        /* background-color: blue; */
+    }
+    .about-main{
+        width: 550px;
+    }
+}
+@media (max-width:572px) {
+    body{
+        /* background-color:yellow; */
+    }
+    .about-main{
+        width: 450px;
+    }
+    img{
+        width:340px;
+    }
+}
+@media (max-width:460px) {
+    body{
+        /* background-color:purple; */
+    }
+    .about-main{
+        width: 430px;
+    }
+}
+@media (max-width:439px) {
+    body{
+        /* background-color: red; */
+    }
+    .about-main{
+        width: 395px;
+    }
+}
+@media (max-width:409px) {
+    body{
+        /* background-color: red; */
+    }
+    .about-main{
+        width: 380px;
+    }
+}
+@media (max-width:395px) {
+    body{
+        /* background-color: red; */
+    }
+    .about-main{
+        width: 365px;
+    }
+}
+@media (max-width:545px) {
+    .contact-input{
+        width: 17rem;
+    }
+}
+@media (max-width:500px) {
+    .contact-input{
+        width: 15rem;
+    }
+}
+@media (max-width:430px) {
+    .contact-input{
+        width: 14rem;
+    }
+}
